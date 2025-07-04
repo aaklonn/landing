@@ -2,6 +2,7 @@
  background-color: #1f2937;
  width: 100%;
  margin: 0px;
+ flex-wrap: wrap;
 
 }
 .navbar{
@@ -23,7 +24,7 @@
     display: flex;
     
     width: 100%;
-    height: 300px;
+   
 
     align-items: center;
     justify-content: center;
@@ -41,7 +42,7 @@
     flex-direction: column;
     color: white;
     flex-wrap: wrap;
-
+    justify-content: center;
     width: 400px;
     
 }
@@ -189,7 +190,9 @@ overflow-x: hidden;
 
 .call{
     padding: 70px 200px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .call-content{
     background-color: #3882f2;
@@ -198,6 +201,9 @@ overflow-x: hidden;
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
+    flex-wrap: wrap;
+    gap: 20px;
+   
 }
 .Signup-2{
     border: #f9faf8 solid 2px;
