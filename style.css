@@ -156,6 +156,7 @@ overflow-x: hidden;
     background-color: #e5e7eb;
     padding: 80px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .quote-text{
@@ -164,8 +165,7 @@ overflow-x: hidden;
     color:#1f2937;
     font-weight: lighter;
     flex-grow: 0;
-    margin-left: 200px;
-    margin-right: 200px;
+
     flex-shrink: 1;
 
 
@@ -178,7 +178,7 @@ overflow-x: hidden;
 .author{
     margin-top: 10px;
    
-    margin-right: -300px;
+    margin-left: auto;
     
     
 }
@@ -224,4 +224,7 @@ footer{
     text-align: center;
     padding: 30px 250px;
     color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
